@@ -1,0 +1,17 @@
+1. En un archivo de texto separado que debes crear, 
+escribe explicaciones de los siguientes conceptos
+
+	* Arrays: un array es una coleccion de DATOS.
+              un array puede almacenar infinita cantidad de datos, puede variar su longitud y tambien
+              puede variar su contenido
+              es similar a una lista.- por ejemplo de nombres
+              -Maria
+              -Sergio
+              -Juan
+              -Ana 
+     var nombres = [Maria, Sergio, Juan, Ana]
+              Se puede acceder a todos los datos conjuntamente o a uno en particular de acuerdo a su posicion
+              El primer dato de un array es posicion 0, entonces si queremos acceder al nombre Juan, tendremos 
+              que hacer algo asi ---> nombres[2] --- y de esa manera obtenemos como resultado "Juan"
+              Puede contener distintos tipos de datos - Strings, numeros, booleanos
+
