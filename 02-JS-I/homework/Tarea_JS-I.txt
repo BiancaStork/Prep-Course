@@ -1,0 +1,41 @@
+1. 
+escribe explicaciones de los siguientes conceptos:
+
+ * Variables: Se usa para guardar el valor de algo, para usarlo despues 
+              Existen tres maneras de crear (declarar)
+              1.  var nombreVariable 
+              2.  let nombreVariable
+              3.  const nombreVariable
+
+
+ * Strings:Es un tipo de dato de texto, o sea un string contiene especificamente y exclusivamente texto
+            se los coloca dentro de " " o ' '  - por ejemplo "Esto es un String"
+
+
+ * Funciones (argumentos, `return`): Una funcion son instrucciones para realizar una tarea, 
+   esas instrucciones son los argumentos y el resultado de esas instrucciones nos devuelve un valor
+   Para acceder a ese valor, lo hacemos con un return
+   cuando se hace un return en la funcion inmediatamente deja de hacer lo que estaba haciendo para devolvernos
+   un valor.
+   
+   function miFuncion(numero1, numero2){
+    var suma = numero1 + numero2;
+    return suma;
+   }
+
+
+ * Declaraciones `if`: se usa para controlar un flujo de datos y comparar.
+   La sentencia se va a ejecutar si es verdadera (true) por ejemplo si numero1 es
+ mas grande que numero2; hacer la instruccion1.... si no hacer la instruccion2
+ function masGrande(numero1, numero2){
+    if (numero1 > numero2){
+        return "es mas grande"; -->(instruccion1)
+    } else return "es mas chico"; --> (instruccion2)
+ }
+
+
+
+ * Valores booleanos (`true`, `false`): true es verdadero
+                                        false es falso
+  
+
