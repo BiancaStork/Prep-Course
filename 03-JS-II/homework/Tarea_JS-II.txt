@@ -1,0 +1,22 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`: evalua expresiones una y otra vez hasta cumplir una condicion de parada o detenimiento; 
+y nos devuelve un valor, para eso tiene que tener una variable de control
+que se inicia con una valor y  se ejecuta hasta q una condicion sea false 
+for (var i=0; i < 5; i++){
+  /*  instrucciones a realizar mientras 
+    que la condicion es verdadera */
+} 
+
+
+
+* `&&`, `||`, `!`: operadores logicos, evalua dos expresiones y devuelve true o false
+ 
+        && - el operado AND - evalua dos expresiones y devuelve true (verdadero) si ambas cumplen con la condicion
+             es decir que ambas sean verdaderas y false (falso) si al menos una de las expresiones sea falsa
+        || - el operador OR - evalua dos expresiones y devuelve true (verdadero) si al menos una de las dos cumple con 
+             la condicion. es decir que es false (falso) unicamente cuando las dos expresiones sean falsas 
+        !  - el operador NOT devolverá el valor booleano opuesto de lo que se le pasa, 
+             es decir si la expresion es true (verdadero), devuelve false (falso) y viceversa
+             ej. !(1===1) ---> devuelve false
+                 !(0===1) ---> devuelve true
