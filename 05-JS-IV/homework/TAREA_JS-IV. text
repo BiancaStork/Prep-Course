@@ -1,0 +1,29 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+        Contienen mucha informacion de una misma cosa. 
+        Es una coleccion de propiedades. Por ejemplo el objeto PERSONA que contiene NOMBRE, EDAD, EMAIL, TELEFONO, ETC.
+
+	* Propiedades
+        Las propiedades de un OBJETO son cada una de las distinta informacion que contiene referido a una cosa en particular
+        Por ejemplo en el objeto PERSONA --> las PROPIEDADES son:
+        nombre,
+        edad,
+        email,
+        TELEFONO
+
+	* Métodos
+        es una funcion guardada como un valor de un OBJETO.
+
+	* Bucle `for…in`
+            Se usa para recorrer un Objeto. Recorre cada clave del Objeto y finaliza cuando haya finalizado de recorrer 
+            todos.
+
+
+	* Notación de puntos vs notación de corchetes
+
+            DOT NOTATION: se usa cuando el nombre de la propiedad se llama EXACTAMENTE como lo que se pone despues del punto
+            BRACKET NOTATION: se usa cuando no sabes EXACTAMENTE como es el nombre de la propiedad
+            Es decir, que te tiene que llegar por parametro
+
+    
